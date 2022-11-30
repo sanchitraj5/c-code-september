@@ -1,0 +1,7 @@
+
+xyz.exe : Rev.o  fact.o
+         gcc -o  xyz.exe Rev.o fact.o
+fact.o: fact.c
+         gcc -c  fact.c
+Rev.o: Rev.c
+         gcc -c  Rev.c
