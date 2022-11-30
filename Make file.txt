@@ -1,0 +1,8 @@
+Make file :-
+
+big.exe. : big2.o  small2.o 
+          gcc -o  big.exe  big2.o small2.o
+big2.o:big2.c
+       gcc -c big2.c
+small2.o:small2.c
+       gcc -c small2.c
